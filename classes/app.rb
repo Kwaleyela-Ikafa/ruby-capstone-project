@@ -1,9 +1,11 @@
 require_relative './../modules/listing'
 require_relative './../modules/show_options'
+require_relative '../modules/mod_games'
 
 class App
   include Listing
   include ShowOptions
+  include ModGame
 
   attr_accessor :books, :music_albums, :movies, :games, :genres, :labels, :sources
 
@@ -52,7 +54,7 @@ class App
     when 3
       list_movies(@movies)
     when 4
-      list_games(@games)
+      list_games
     else
       puts 'Wrong input'
     end
@@ -67,7 +69,7 @@ class App
     when 10
       movie_options(@genres, @authors, @sources, @labels)
     when 11
-      game_options(@genres, @authors, @sources, @labels)
+      add_game
     else
       puts 'Thank you for using the app'
       exit

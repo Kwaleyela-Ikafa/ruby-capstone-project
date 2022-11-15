@@ -1,9 +1,9 @@
-require './item'
+require_relative './item'
 require 'date'
 
 class Game < Item
   def initialize(multiplayer, last_played_date)
-    super(publish_date)
+    super()
     @multiplayer = multiplayer
     @last_played_date = Date.parse(last_played_date)
   end
