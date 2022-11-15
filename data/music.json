@@ -1,0 +1,14 @@
+[
+  {
+    "publish_date": 1996,
+    "on_spotify": 1,
+    "name": "Pinkerton",
+    "genre": "genre"
+  },
+  {
+    "publish_date": 2022,
+    "on_spotify": 1,
+    "name": "test",
+    "genre": "genre"
+  }
+]

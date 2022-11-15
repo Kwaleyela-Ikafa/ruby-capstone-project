@@ -1,9 +1,11 @@
 require_relative './../modules/listing'
 require_relative './../modules/show_options'
+require './modules/mod_music_album'
 
 class App
   include Listing
   include ShowOptions
+  include ModMusicAlbum
 
   attr_accessor :books, :music_albums, :movies, :games, :genres, :labels, :sources
 
@@ -48,7 +50,7 @@ class App
     when 1
       list_books(@books)
     when 2
-      list_music_albums(@music_albums)
+      list_music_albums
     when 3
       list_movies(@movies)
     when 4
@@ -63,7 +65,7 @@ class App
     when 8
       book_options(@genres, @authors, @sources, @labels)
     when 9
-      music_album_options(@genres, @authors, @sources, @labels)
+      add_music_album
     when 10
       movie_options(@genres, @authors, @sources, @labels)
     when 11
