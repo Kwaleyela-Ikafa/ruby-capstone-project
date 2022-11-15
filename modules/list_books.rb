@@ -1,7 +1,6 @@
 require_relative '../classes/book'
 require_relative 'local_storage'
 
-
 module ListBooks
   include LocalStorage
 
@@ -20,7 +19,7 @@ module ListBooks
     # print 'Publish date [YYYY-MM-DD]:'
     # publish_date = gets.chomp
     Book.new(publisher, cover_state)
-    book_info =  {publisher: publisher, cover_state: cover_state}
+    book_info = { publisher: publisher, cover_state: cover_state }
     update_storage('book', book_info)
   end
 end
