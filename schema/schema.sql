@@ -30,6 +30,15 @@ CREATE TABLE game (
     FOREIGN KEY(item_id) REFERENCES items(id)
 );
 
+CREATE TABLE book (
+    id INT PRIMARY KEY,
+    publisher   VARCHAR(100),
+    cover_state VARCHAR(100),
+    publish_date DATE,
+    item_id INT,
+    FOREIGN KEY(item_id) REFERENCES items(id)
+);
+
 CREATE TABLE label (
     id int PRIMARY KEY,
     title  VARCHAR(100),

@@ -54,4 +54,11 @@ module ShowOptions
     date = gets.chomp
     puts "The game was added with multiplayer set to #{answer} on #{date}"
   end
+
+  def menu_return
+    puts ''
+    puts 'Press Enter to go back to the menu'
+    gets.chomp
+    puts ''
+  end
 end

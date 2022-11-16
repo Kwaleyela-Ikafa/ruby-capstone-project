@@ -1,0 +1,42 @@
+[
+  {
+    "id": 46,
+    "name": "Jazz"
+  },
+  {
+    "id": 53,
+    "name": "Country"
+  },
+  {
+    "id": 69,
+    "name": "Rock"
+  },
+  {
+    "id": 68,
+    "name": "Pop"
+  },
+  {
+    "id": 67,
+    "name": "EDM"
+  },
+  {
+    "id": 28,
+    "name": "Indie"
+  },
+  {
+    "id": 23,
+    "name": "Hardcore"
+  },
+  {
+    "id": 30,
+    "name": "Alternative"
+  },
+  {
+    "id": 76,
+    "name": "Electric"
+  },
+  {
+    "id": 35,
+    "name": "Hardcore"
+  }
+]
