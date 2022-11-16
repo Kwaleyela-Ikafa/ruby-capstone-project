@@ -26,24 +26,6 @@ module Listing
     puts 'There are no sources yet'
   end
 
-  def list_labels(labels)
-    unless labels.empty?
-      labels.each_with_index do |label, index|
-        puts "#{index} #{label.title} #{label.color}"
-      end
-    end
-    puts 'There are no sources yet'
-  end
-
-  def list_books(books)
-    unless books.empty?
-      books.each do |book|
-        puts "id: #{book.id} author: #{book.author} genre: #{book.genre}"
-      end
-    end
-    puts 'There are no books added yet'
-  end
-
   def list_music_albums(music_albums)
     unless music_albums.empty?
       music_albums.each do |album|

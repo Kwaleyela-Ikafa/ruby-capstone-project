@@ -1,8 +1,11 @@
-require_relative './../modules/listing'
+# require_relative './../modules/listing'
+require_relative './../modules/list_books'
+require_relative './../modules/list_labels'
 require_relative './../modules/show_options'
 
 class App
-  include Listing
+  include ListBooks
+  include ListLabels
   include ShowOptions
 
   attr_accessor :books, :music_albums, :movies, :games, :genres, :labels, :sources
@@ -35,7 +38,7 @@ class App
     when 5
       list_genres(@genres)
     when 6
-      list_labels(@labels)
+      list_all_labels(@labels)
     when 7
       list_sources(@sources)
     else
@@ -46,7 +49,7 @@ class App
   def listing_methods1(choice)
     case choice
     when 1
-      list_books(@books)
+      list_all_books(@books)
     when 2
       list_music_albums(@music_albums)
     when 3
@@ -61,7 +64,8 @@ class App
   def adding_methods(choice)
     case choice
     when 8
-      book_options(@genres, @authors, @sources, @labels)
+      # book_options(@genres, @authors, @sources, @labels)
+      add_book
     when 9
       music_album_options(@genres, @authors, @sources, @labels)
     when 10
