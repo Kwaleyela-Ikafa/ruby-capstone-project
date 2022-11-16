@@ -1,11 +1,13 @@
-require_relative './../modules/listing'
-require_relative './../modules/show_options'
+require './modules/listing'
+require './modules/show_options'
 require './modules/mod_music_album'
+require './modules/mod_genre'
 
 class App
   include Listing
   include ShowOptions
   include ModMusicAlbum
+  include ModGenre
 
   attr_accessor :books, :music_albums, :movies, :games, :genres, :labels, :sources
 
@@ -35,7 +37,7 @@ class App
   def listing_methods2(choice)
     case choice
     when 5
-      list_genres(@genres)
+      list_genres
     when 6
       list_labels(@labels)
     when 7

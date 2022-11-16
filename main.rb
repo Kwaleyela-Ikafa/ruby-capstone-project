@@ -1,4 +1,4 @@
-require_relative './classes/app'
+require './classes/app'
 def show_options
   options = [
     '1) List all books',

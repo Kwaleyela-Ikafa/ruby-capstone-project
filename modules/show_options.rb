@@ -55,7 +55,6 @@ module ShowOptions
     puts "The game was added with multiplayer set to #{answer} on #{date}"
   end
 
-  
   def menu_return
     puts ''
     puts 'Press Enter to go back to the menu'

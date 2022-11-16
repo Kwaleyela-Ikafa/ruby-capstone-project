@@ -3,12 +3,120 @@
     "publish_date": 1996,
     "on_spotify": 1,
     "name": "Pinkerton",
-    "genre": "genre"
+    "genre": "Rock"
+  },
+  {
+    "publish_date": 2022,
+    "on_spotify": 1,
+    "name": "hard",
+    "genre": "Indie"
   },
   {
     "publish_date": 2022,
     "on_spotify": 1,
     "name": "test",
-    "genre": "genre"
+    "genre": "Pop"
+  },
+  {
+    "publish_date": 1996,
+    "on_spotify": 1,
+    "name": "Blue Album",
+    "genre": "Alternative"
+  },
+  {
+    "publish_date": 2022,
+    "on_spotify": true,
+    "name": "test",
+    "genre": "Alternative"
+  },
+  {
+    "publish_date": 2022,
+    "on_spotify": false,
+    "name": "asd",
+    "genre": "EDM"
+  },
+  {
+    "publish_date": 0,
+    "on_spotify": 1,
+    "name": "",
+    "genre": "Rock"
+  },
+  {
+    "publish_date": 0,
+    "on_spotify": 2,
+    "name": "asd",
+    "genre": "Rock"
+  },
+  {
+    "publish_date": 0,
+    "on_spotify": false,
+    "name": "as",
+    "genre": "Rock"
+  },
+  {
+    "publish_date": 123,
+    "on_spotify": true,
+    "name": "123",
+    "genre": "Rock"
+  },
+  {
+    "publish_date": 2022,
+    "on_spotify": false,
+    "name": "test",
+    "genre": "Rock"
+  },
+  {
+    "publish_date": 2022,
+    "on_spotify": false,
+    "name": "test",
+    "genre": "Rock"
+  },
+  {
+    "publish_date": 2022,
+    "on_spotify": true,
+    "name": "test",
+    "genre": "EDM"
+  },
+  {
+    "publish_date": "2022/09/1996",
+    "on_spotify": false,
+    "name": "sad",
+    "genre": "Indie"
+  },
+  {
+    "publish_date": "1996/12/09",
+    "on_spotify": false,
+    "name": "Pinkerton",
+    "genre": "Rock"
+  },
+  {
+    "publish_date": "asd",
+    "on_spotify": true,
+    "name": "asd",
+    "genre": "Rock"
+  },
+  {
+    "publish_date": "1996/12/09",
+    "on_spotify": true,
+    "name": "Test",
+    "genre": "Electric"
+  },
+  {
+    "publish_date": "2022",
+    "on_spotify": false,
+    "name": "test",
+    "genre": "Indie"
+  },
+  {
+    "publish_date": "1996",
+    "on_spotify": false,
+    "name": "test",
+    "genre": "Alternative"
+  },
+  {
+    "publish_date": "123",
+    "on_spotify": true,
+    "name": "asd",
+    "genre": "EDM"
   }
 ]
