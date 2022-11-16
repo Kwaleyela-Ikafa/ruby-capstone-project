@@ -9,11 +9,6 @@ describe MusicAlbum do
     expect(@album).to be_instance_of MusicAlbum
   end
 
-  context 'Testing Album class instance variables' do
-    it 'Should have a date of 2022' do
-      date = @album.publish_date
-      expect(date).to eql '2022'
-    end
 
     it 'Should have a spotify status of true' do
       spotify = @album.on_spotify
