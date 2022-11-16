@@ -1,11 +1,13 @@
 require_relative './../modules/listing'
 require_relative './../modules/show_options'
 require_relative '../modules/mod_games'
+require_relative '../modules/mod_authors'
 
 class App
   include Listing
   include ShowOptions
   include ModGame
+  include ModAuthor
 
   attr_accessor :books, :music_albums, :movies, :games, :genres, :labels, :sources
 
@@ -25,7 +27,7 @@ class App
       listing_methods1(choice)
     elsif choice > 4 && choice < 8
       listing_methods2(choice)
-    elsif choice >= 8 && choice <= 12
+    elsif choice >= 8 && choice <= 13
       adding_methods(choice)
     else
       puts 'Wrong input'
@@ -70,6 +72,8 @@ class App
       movie_options(@genres, @authors, @sources, @labels)
     when 11
       add_game
+    when 12
+      list_authors
     else
       puts 'Thank you for using the app'
       exit
