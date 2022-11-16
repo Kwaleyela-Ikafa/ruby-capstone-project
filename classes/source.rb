@@ -1,5 +1,3 @@
-require_relative 'item'
-
 class Source
   attr_accessor :name
 
@@ -11,7 +9,6 @@ class Source
 
   def add_item(item)
     @items << item unless @items.include?(item)
-    item.add_source = self
   end
 
 end

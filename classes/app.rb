@@ -1,9 +1,13 @@
 require_relative './../modules/listing'
 require_relative './../modules/show_options'
+require_relative './../modules/mod_movie'
+require_relative './../modules/mod_source'
 
 class App
   include Listing
   include ShowOptions
+  include ModMovie
+  include ModSource
 
   attr_accessor :books, :music_albums, :movies, :games, :genres, :labels, :sources
 
@@ -37,7 +41,7 @@ class App
     when 6
       list_labels(@labels)
     when 7
-      list_sources(@sources)
+      list_sources
     else
       puts 'Wrong input'
     end
@@ -50,7 +54,7 @@ class App
     when 2
       list_music_albums(@music_albums)
     when 3
-      list_movies(@movies)
+      list_movies
     when 4
       list_games(@games)
     else
@@ -65,7 +69,7 @@ class App
     when 9
       music_album_options(@genres, @authors, @sources, @labels)
     when 10
-      movie_options(@genres, @authors, @sources, @labels)
+      add_movie
     when 11
       game_options(@genres, @authors, @sources, @labels)
     else
