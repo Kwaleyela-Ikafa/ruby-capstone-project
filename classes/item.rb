@@ -1,5 +1,5 @@
 class Item
-  attr_accessor :author
+  attr_accessor :author, :source
 
   def initialize(publish_date: Time.now)
     @id = Random.rand(1..1000)
