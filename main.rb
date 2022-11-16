@@ -12,7 +12,8 @@ def show_options
     '9) Add a music album',
     '10) Add a movie',
     '11) Add a game',
-    '12) Quite'
+    '12) List all authors',
+    '13) Quite'
   ]
   options.each { |item| puts item }
 end

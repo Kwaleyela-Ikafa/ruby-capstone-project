@@ -23,6 +23,13 @@ CREATE TABLE source (
     name VARCHAR(100)
 );
 
+CREATE TABLE game (
+    id INT PRIMARY KEY,
+    last_played_date DATE NOT NULL,
+    multiplayer BOOLEAN NOT NULL,
+    FOREIGN KEY(item_id) REFERENCES items(id)
+);
+
 CREATE TABLE book (
     id INT PRIMARY KEY,
     publisher   VARCHAR(100),
