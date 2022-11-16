@@ -130,5 +130,11 @@
     "on_spotify": true,
     "name": "tst",
     "genre": "Rock"
+  },
+  {
+    "publish_date": "2021/01/01",
+    "on_spotify": true,
+    "name": "Until Further Notice",
+    "genre": "Indie"
   }
 ]

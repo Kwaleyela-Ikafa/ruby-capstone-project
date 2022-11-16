@@ -1,9 +1,9 @@
-require_relative 'adding'
-require_relative 'listing'
+# require_relative 'adding'
+# require_relative 'listing'
 
 module Selecting
-  include Adding
-  include Listing
+  # include Adding
+  # include Listing
 
   def selecting_an_author(authors)
     if authors.empty?
