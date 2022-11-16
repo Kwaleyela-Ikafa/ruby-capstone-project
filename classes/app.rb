@@ -20,7 +20,6 @@ class App
   include ModMusicAlbum
   include ModGenre
 
-
   attr_accessor :books, :music_albums, :movies, :games, :genres, :labels, :sources
 
   def initialize
