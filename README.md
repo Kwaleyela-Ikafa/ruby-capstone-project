@@ -34,6 +34,11 @@
 - GitHub: [@acedavon](https://github.com/acedavon)
 - Twitter: [@sharkleshevon](https://twitter.com/sharkleshevon)
 - LinkedIn: [Makoji David](https://linkedin.com/in/makoji-david)
+
+👤 **Conor Follette**
+
+- GitHub: [@amtresu](https://github.com/amtresu)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
