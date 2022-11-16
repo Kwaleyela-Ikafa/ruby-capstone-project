@@ -2,6 +2,8 @@ require './modules/listing'
 require './modules/show_options'
 require './modules/mod_music_album'
 require './modules/mod_genre'
+require './modules/list_books'
+require './modules/list_labels'
 
 class App
   include ListBooks

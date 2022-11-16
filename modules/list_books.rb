@@ -1,8 +1,11 @@
 require_relative '../classes/book'
 require_relative 'local_storage'
+require_relative 'show_options'
+require './classes/label'
 
 module ListBooks
   include LocalStorage
+  include ShowOptions
 
   def add_book
     print 'Publisher: '
@@ -21,7 +24,9 @@ module ListBooks
     puts 'There are no books added yet.' if books.empty?
     books.each_with_index do |book, index|
       puts "#{index + 1}) publisher: #{book['publisher']} cover_state: #{book['cover_state']}"
+      puts ''
     end
+    menu_return
   end
   # rubocop:enable Lint/ShadowedArgument
 end

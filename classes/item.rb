@@ -1,7 +1,7 @@
 class Item
-  def initialize(_publish_date)
+  def initialize(publish_date: Time.now)
     @id = Random.rand(1..1000)
-    @publish_date = Time.now
+    @publish_date = publish_date
     @archived = false
   end
 

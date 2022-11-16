@@ -4,7 +4,7 @@ class MusicAlbum < Item
   attr_accessor :name, :on_spotify, :archived, :publish_date, :genre
 
   def initialize(publish_date, on_spotify, name, genre)
-    super(publish_date)
+    super(publish_date: publish_date)
     @on_spotify = on_spotify
     @name = name
     @genre = genre

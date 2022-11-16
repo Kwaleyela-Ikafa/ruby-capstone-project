@@ -28,7 +28,7 @@ end
 context 'Testing Album class methods' do
   it 'Should not be archivable' do
     album = MusicAlbum.new('2022', true, 'Pinkerton', 'Rock')
-    archive = album.can_be_archived?
+    archive = album.can_be_archieved?
     expect(archive).to be_falsy
   end
 end
