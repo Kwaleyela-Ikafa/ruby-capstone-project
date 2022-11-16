@@ -26,7 +26,6 @@ module Listing
   #   puts 'There are no sources yet'
   # end
 
-
   # def list_labels(labels)
   #   unless labels.empty?
   #     labels.each_with_index do |label, index|
@@ -53,7 +52,6 @@ module Listing
   #   end
   #   puts 'There are no music albums added yet'
   # end
-
 
   # def list_movies(movies)
   #   unless movies.empty?
