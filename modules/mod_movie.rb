@@ -1,9 +1,11 @@
 require_relative './../classes/movie'
 require_relative 'local_storage'
 require_relative './../classes/source'
+require_relative 'show_options'
 
 module ModMovie
   include LocalStorage
+  include ShowOptions
 
   def add_movie
     puts 'Add the movie name: '
@@ -23,6 +25,7 @@ module ModMovie
     update_storage('sources', source_info)
     update_storage('movies', movies_info)
     puts "#{name} added to the movies list successfully"
+    menu_return
   end
 
   def list_movies
@@ -33,5 +36,6 @@ module ModMovie
       puts "Is the movie silent? #{movie['silent']}, Movie Source: #{movie['source']}"
       puts
     end
+    menu_return
   end
 end
