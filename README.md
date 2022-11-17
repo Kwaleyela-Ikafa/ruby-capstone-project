@@ -29,6 +29,12 @@
 
 ## Authors
 
+👤 **Kwaleyela Musilizo Ikafa**
+
+- GitHub: [@Kwaleyela-Ikafa](https://github.com/Kwaleyela-Ikafa)
+- Twitter: [@K_Ikafa](https://twitter.com/K_Ikafa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kwaleyela-musilizo-ikafa/)
+
 👤 **Makoji David**
 
 - GitHub: [@acedavon](https://github.com/acedavon)
@@ -38,6 +44,10 @@
 👤 **Conor Follette**
 
 - GitHub: [@amtresu](https://github.com/amtresu)
+
+👤 **Habib Payenda**
+- GitHub: [@HabibPayenda](https://github.com/HabibPayenda)
+- Twitter: [@Habib-Payenda](https://twitter.com/HabibPayenda)
 
 ## 🤝 Contributing
 
