@@ -54,6 +54,7 @@ CREATE TABLE author (
 CREATE TABLE movies (
     id INT PRIMARY KEY,
     name VARCHAR(255),
+    publish_date DATE,
     silent BOOLEAN NOT NULL,
     FOREIGN KEY(source_id) REFERENCES source(id)
 );
