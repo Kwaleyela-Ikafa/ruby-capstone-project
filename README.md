@@ -29,6 +29,12 @@
 
 ## Authors
 
+👤 **Kwaleyela Musilizo Ikafa**
+
+- GitHub: [@Kwaleyela-Ikafa](https://github.com/Kwaleyela-Ikafa)
+- Twitter: [@K_Ikafa](https://twitter.com/K_Ikafa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kwaleyela-musilizo-ikafa/)
+
 👤 **Makoji David**
 
 - GitHub: [@acedavon](https://github.com/acedavon)
