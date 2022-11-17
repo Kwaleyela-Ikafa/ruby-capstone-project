@@ -1,0 +1,34 @@
+[
+  {
+    "publisher": "Some dude",
+    "cover_state": "good"
+  },
+  {
+    "publisher": "test",
+    "cover_state": "good"
+  },
+  {
+    "publisher": "test",
+    "cover_state": "good"
+  },
+  {
+    "publisher": "KK",
+    "cover_state": "good"
+  },
+  {
+    "publisher": "hh",
+    "cover_state": "god"
+  },
+  {
+    "publisher": "JK Rowling",
+    "cover_state": "good"
+  },
+  {
+    "publisher": "Alice",
+    "cover_state": "bad"
+  },
+  {
+    "publisher": "test",
+    "cover_state": "good"
+  }
+]

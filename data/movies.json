@@ -1,0 +1,38 @@
+[
+  {
+    "publish_date": 12,
+    "silent": true,
+    "name": "new",
+    "source": "friend"
+  },
+  {
+    "publish_date": 10,
+    "silent": true,
+    "name": "newMovie",
+    "source": "newSource"
+  },
+  {
+    "publish_date": "12/3/2002",
+    "silent": true,
+    "name": "mOVIE",
+    "source": "source"
+  },
+  {
+    "publish_date": "1990",
+    "silent": true,
+    "name": "Shawshank redemption",
+    "source": "Web"
+  },
+  {
+    "publish_date": "12-12-12",
+    "silent": true,
+    "name": "jjjj",
+    "source": "nnnnnn"
+  },
+  {
+    "publish_date": "2022/11/11",
+    "silent": true,
+    "name": "test",
+    "source": "source"
+  }
+]
