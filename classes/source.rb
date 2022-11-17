@@ -1,5 +1,5 @@
 class Source
-  attr_accessor :name
+  attr_accessor :name, :items
 
   def initialize(name)
     super()
@@ -9,5 +9,6 @@ class Source
 
   def add_item(item)
     @items << item unless @items.include?(item)
+    item.add_source(self)
   end
 end
