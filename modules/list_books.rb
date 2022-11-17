@@ -11,11 +11,27 @@ module ListBooks
     print 'Publisher: '
     publisher = gets.chomp
     print 'Cover State: (good or bad) '
-    cover_state = gets.chomp
-    Book.new(publisher, cover_state)
+    cover_state = gets.chomp.downcase
+
+    puts 'Give it a label:'
+    print 'Title: '
+    title = gets.chomp
+    print 'Color: '
+    color = gets.chomp
+    label = Label.new(title, color)
+
+    book = Book.new(label, publisher, cover_state)
+    label.add_item(book)
+
+    @labels << label
+
+    label_info = { Title: title, Color: color }
+    update_storage('label', label_info)
+
     book_info = { publisher: publisher, cover_state: cover_state }
     update_storage('book', book_info)
     puts 'book stored'
+    puts ' '
   end
 
   # rubocop:disable Lint/ShadowedArgument

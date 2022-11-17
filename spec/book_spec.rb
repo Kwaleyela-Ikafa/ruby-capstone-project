@@ -4,7 +4,7 @@ require_relative 'spec_helper'
 
 describe Book do
   before :each do
-    @book = Book.new 'Publisher', 'good'
+    @book = Book.new('title', 'Publisher', 'good')
   end
 
   describe '#new' do
