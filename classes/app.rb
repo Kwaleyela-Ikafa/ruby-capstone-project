@@ -75,7 +75,6 @@ class App
   def adding_methods(choice)
     case choice
     when 8
-      # book_options(@genres, @authors, @sources, @labels)
       add_book
     when 9
       add_music_album

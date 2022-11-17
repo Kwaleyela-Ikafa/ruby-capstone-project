@@ -1,10 +1,4 @@
-# require_relative 'adding'
-# require_relative 'listing'
-
 module Selecting
-  # include Adding
-  # include Listing
-
   def selecting_an_author(authors)
     if authors.empty?
       puts 'There is no author added we have to add an Author'

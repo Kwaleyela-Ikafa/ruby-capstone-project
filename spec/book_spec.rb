@@ -25,13 +25,12 @@ describe Book do
     end
   end
 
-  # describe '#publish_date' do
-  #   it 'returns the correct publish_date' do
-  #     expect(@book.publish_date.year.to_s).to eql '2022'
-  #   end
-  # end
-
   it 'should inherit behavior from Parent' do
     expect(Book.superclass).to eq(Item)
+  end
+
+  it 'Should not be archivable' do
+    archive = @book.can_be_archieved?
+    expect(archive).to be_falsy
   end
 end

@@ -1,5 +1,5 @@
 class Item
-  attr_accessor :author, :source
+  attr_accessor :author, :source, :publish_date, :archived, :label, :genre
 
   def initialize(publish_date: Time.now)
     @id = Random.rand(1..1000)
@@ -33,9 +33,6 @@ class Item
   private
 
   def can_be_archieved?
-    time = Time.new
-    year = time.year - publish_date.year
-
-    true unless year < 10
+    Time.new.year - publish_date.year > 10
   end
 end
