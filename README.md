@@ -46,8 +46,10 @@
 - GitHub: [@amtresu](https://github.com/amtresu)
 
 👤 **Habib Payenda**
-- GitHub: [@HabibPayenda](https://github.com/HabibPayenda)
-- Twitter: [@Habib-Payenda](https://twitter.com/HabibPayenda)
+
+- GitHub: [@HabibPayenda](https://github.com/githubhandle)
+- Twitter: [@HabibPayenda](https://twitter.com/twitterhandle)
+- LinkedIn: [@HabibPayenda](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 

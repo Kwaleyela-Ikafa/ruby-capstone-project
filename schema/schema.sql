@@ -50,3 +50,11 @@ CREATE TABLE author (
     first_name VARCHAR(255),
     last_name VARCHAR(255)
 );
+
+CREATE TABLE movies (
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    publish_date DATE,
+    silent BOOLEAN NOT NULL,
+    FOREIGN KEY(source_id) REFERENCES source(id)
+);
