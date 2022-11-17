@@ -1,8 +1,10 @@
 require_relative './local_storage'
 require_relative '../classes/author'
+require_relative 'show_options'
 
 module ModAuthor
   include LocalStorage
+  include ShowOptions
 
   def add_author
     authors = load_storage('author')
@@ -22,5 +24,6 @@ module ModAuthor
     authors.each_with_index do |x, i|
       puts "\n #{i + 1}. First Name: #{x['fname']} Last Name: #{x['lname']} with User ID: #{x['id']} \n \n"
     end
+    menu_return
   end
 end

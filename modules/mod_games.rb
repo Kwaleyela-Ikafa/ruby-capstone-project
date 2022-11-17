@@ -2,10 +2,12 @@ require_relative 'local_storage'
 require_relative '../classes/author'
 require_relative '../classes/game'
 require_relative './mod_authors'
+require_relative 'show_options'
 
 module ModGame
   include LocalStorage
   include ModAuthor
+  include ShowOptions
 
   def add_game
     load_storage('games')
@@ -31,6 +33,7 @@ module ModGame
     game_data = { last_played: last_played_date, multiplayer: status, author: author_arr }
     update_storage('games', game_data)
     puts "\n Game with Last Play Date: #{last_played_date} and Multiplayer: #{multiplayer.downcase == 'y' ? 'enabled' : 'disabled'} added succesfully \n \n"
+    menu_return
   end
 
   def list_games
@@ -39,5 +42,6 @@ module ModGame
     game.each_with_index do |x, i|
       puts "\n #{i + 1}. Game with Last Play Date: #{x['last_played']} and Multiplayer: #{x['multiplayer'] == 'enabled' ? 'True' : 'False'} \n \n"
     end
+    menu_return
   end
 end

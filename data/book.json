@@ -26,5 +26,9 @@
   {
     "publisher": "Alice",
     "cover_state": "bad"
+  },
+  {
+    "publisher": "test",
+    "cover_state": "good"
   }
 ]
