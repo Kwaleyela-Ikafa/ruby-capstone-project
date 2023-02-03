@@ -2,7 +2,8 @@
 
 # Ruby Capstone
 
-> This is an Educational project for the Microverse Module 4 Block 5(Ruby Capstone Project) Ruby Capstone exercise, requirement for the Ruby Module
+> This is an Educational project for the Microverse Module 4 Block 5(Ruby Capstone Project) Ruby Capstone exercise, requirement for the Ruby Module.
+> The command line application allows the user to create and list books, music, and movies.
 
 ## Built With
 
